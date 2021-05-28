@@ -61,14 +61,16 @@ plt.plot(selection.index,selection['TEMP_C'],linestyle='solid',c='black',marker=
 plt.title("Helsinki-Vantaa Airport")
 plt.xlabel("Time")
 plt.ylabel("Temperature(Celsius)")
+plt.figure(figsize=(14,6))
 plt.grid()
 plt.show()
 
 # Set output file name
-outputfp = ""
+outputfp = "temp_line_plot.png"
 
 # Save plot as image
 # YOUR CODE HERE 4
+plt.savefig(outputfp)
 
 import os
 
