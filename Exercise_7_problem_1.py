@@ -69,14 +69,13 @@ plt.scatter(x, y, s=50, c=colors, cmap='rainbow', edgecolor='black')
 plt.title( "My random candy points" )
 plt.xlabel( "X-label" )
 plt.ylabel( "Y-label" )
-plt.show()
 
 # Save the plot as a png file:
 outputfp = "my_first_plot.png"
 
 # YOUR CODE HERE 5
 plt.savefig( outputfp )
-
+plt.show()
 # This test print statement should print the output filename of your figure
 print("Saved my first plot as:", outputfp)
 
