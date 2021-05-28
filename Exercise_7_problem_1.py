@@ -74,7 +74,7 @@ plt.ylabel( "Y-label" )
 outputfp = "my_first_plot.png"
 
 # YOUR CODE HERE 5
-plt.savefig( outputfp )
+plt.savefig(outputfp)
 plt.show()
 # This test print statement should print the output filename of your figure
 print("Saved my first plot as:", outputfp)
