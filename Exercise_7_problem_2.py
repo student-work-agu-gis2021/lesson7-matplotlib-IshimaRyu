@@ -70,7 +70,7 @@ outputfp = "temp_line_plot.png"
 # Save plot as image
 # YOUR CODE HERE 4
 plt.savefig(outputfp)
-plt.figure ( figsize=(14,6) )
+plt.figure ( figsize=(14,6))
 plt.show()
 
 
